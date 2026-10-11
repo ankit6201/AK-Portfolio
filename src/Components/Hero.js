@@ -145,7 +145,7 @@ export default function Hero() {
                   sequence={[
                     "Frontend Development",
                     2200,
-                    "Next.js & React Apps",
+                    "Next.js & React.js Development",
                     2200,
                     "High-Rank SEO Strategy",
                     2200,
@@ -188,7 +188,8 @@ export default function Hero() {
             </Link>
 
             <a
-              href="mailto:ankitkumar.dev@gmail.com"
+              href="/Ankit Kumar.pdf"
+              download="Ankit-Kumar.pdf"
               className="flex items-center gap-2 rounded-full border border-white/10 px-5 py-3.5 text-sm text-slate-400 transition-colors hover:border-white/20 hover:text-white"
             >
               <Download size={15} />
@@ -316,4 +317,4 @@ export default function Hero() {
       </div>
     </section>
   );
-}
+}
